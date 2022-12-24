@@ -1,0 +1,76 @@
+#user {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+  }
+  
+  #user td, #user th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #user tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #user tr:hover {background-color: #ddd;}
+  
+  #user th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+  }
+
+.btnn {
+  color: teal;
+  border: 1px solid teal;
+  margin: 3px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btnn:hover{
+  background-color: teal;
+  color: black;
+}
+
+select{
+  color: teal;
+  border: 1px solid teal;
+  padding: 5px 15px;
+  border-radius: 5px;
+  
+}
+
+option{
+  color: teal;
+  cursor: pointer;
+}
+
+
+.containerr{
+  margin: 10px;
+}
+
+.disable{
+  cursor: not-allowed;
+  color: rgb(8, 156, 156);
+  border: 1px solid teal;
+  margin: 3px;
+  padding: 5px 15px;
+  border-radius: 5px;
+
+}
+
+
+input{
+  border: 1px solid teal;
+  padding: 5px;
+  color: teal;
+  outline:none;
+}
+
+.ShowDiffColor{
+  background-color: cornflowerblue;
+}
